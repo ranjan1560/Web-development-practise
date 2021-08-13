@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION MENU</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .navigation ul{
+            overflow:auto;
+        }
+        .navigation li{
+            float: left;
+            text-decoration: none;
+            margin: 25px 25px;
+            list-style: none;
+
+        }
+        .navigation{
+            background-color: #d2aef2;
+            
+        } 
+        a:hover{
+            background-color: red;
+            padding: 25px 25px;
+        }
+        .searchbox{
+            float: right;
+            clear: right;
+            margin: auto auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">VISIT</a></li>
+            <li><a href="#">RESEARCH</a></li>
+            <li><a href="#">EXHIBIT</a></li>
+            <li><a href="#">EDUCATION</a></li>
+            <li><a href="#">EVENT</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">JOIN US</a></li>
+            <li><a href="#">DONATE</a></li>
+            <div class="searchbox">
+                <input type="text" name="search" id="search" placeholder="Type to search">
+            <button>search</button>
+            </div>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(GYM/man-2604149_1920.jpg);
+            color: white;
+            
+        }
+        .left{
+            display: inline-block;
+            /* border: 3px solid yellow; */
+            position:absolute;
+            top: 10px;
+            left:2px;
+        
+        }
+        .left img{
+            width: 95px;
+            height: 65px;
+            filter: invert(100%);
+            
+        }
+        .left div {
+        line-height: 7px;
+        font-size: 19px;
+        text-align: center;
+    }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            float: left;
+            font-size: 24px;
+            list-style:none;
+
+        }
+        .navbar li a{
+            float: left;
+            color: white;
+            text-decoration: none;
+            padding: 0px 10px;
+        }
+        .navbar li a:hover{
+            color: blue;
+            background-color: red;
+        }
+        .mid{
+            display:block;
+            /* border: 2px solid yellow; */
+            width: 750px;
+            margin: 29px auto;
+            
+        }
+        .btn{
+            margin: 2px 3px;
+            padding: 1px 3px;
+            cursor: pointer;
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            top: 17px;
+            right: 14px;
+            /* border: 2px solid yellow; */
+            
+        }
+        .form{
+            text-align: center;
+            display: block;
+            margin: auto auto;
+            border: 3px solid black;
+            border-radius: 8px;
+            width: 500px;
+            margin: 6px auto;
+            padding: 1px;
+        }
+        .form input{
+            margin: 0px 0px;
+            padding: 20px 74px;
+            border-radius: 8px;
+            font-size: 25px;
+        }
+        h3{
+            display: block;
+            text-align: center;
+            font-size: 45px;
+            color: rgb(22, 164, 230);
+            margin: 51px auto;
+            padding: 31px auto;
+        }
+        .submit{
+            text-align: center;
+            display: block;
+            font-size: 25px;
+            width: 400px;
+            position:absolute;
+            left:36%;
+        }
+        .submit button{
+            margin: 13px 0px;
+            padding: 10px 43px;
+            font-size:35px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+
+
+        <!-- left for logo -->
+
+
+        <div class="left">
+            <img src="GYM/04012019-28.jpg" alt>
+            <div>Fitness Gym</div>
+        </div>
+
+
+        <!-- mid for navigation -->
+
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- right for extra button -->
+
+
+
+        <div class="right">
+            <button class="btn">Email us</button>
+            <button class="btn">Call Now</button>
+        </div>
+    </header>
+    <h3 class="h3">TO JOIN THE GYM FILL THIS FORM &#128071</h3>
+    <div class="container">
+        <form action="backend.php">
+            <div class="form">
+                <input name="myname" type="text" placeholder="Enter your Name">
+            </div>
+
+            <div class="form">
+              <input name="myage" type="text" placeholder="Enter your Age">
+            </div>
+
+            <div class="form">
+                <input name="mygender" type="text" placeholder="Enter your Gender">
+
+            </div>
+
+            <div class="form">
+                <input name type="text" placeholder="Enter your Locality">
+            </div>
+
+            <div class="form">
+                <input name="mymob" type="text" placeholder="Enter your Mobile no.">
+            </div>
+
+            <div class="form">
+                <input name="myemail" type="text" placeholder="Enter your Email">
+            </div>
+            <div class="submit">
+                <button>SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

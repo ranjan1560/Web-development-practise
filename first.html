@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="first.css">
+    <script src="first.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #e6e0d3;
+        }
+
+        .container{
+            background-color: rgb(231, 230, 241);
+            border: 3px solid rgb(64, 6, 119);
+
+            /* We can set margin/padding for  top, bottom, left and right like this */
+            /* padding-top: 79px;
+            padding-bottom: 79px;
+            padding-left: 34px; 
+            padding-right: 79px;*/
+
+            /* margin-top: 3px;
+            margin-bottom: 5px;
+            margin-left: 34px;
+            margin-right:5px ; */
+
+            /* margin = top right bottom left;  */
+            /* padding = top right bottom left;  */
+
+            /* padding: 23px 56px 6px 78px;   */
+            /* margin: 23px 56px 6px 78px;   */
+        
+            /* padding: y(top/bottom) x(left/right); */
+            /* margin: y(top/bottom) x(left/right); */
+            padding: 34px 19px;
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+            
+
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>This is first Heading</h1>
+    <h2>This is second Heading</h2>
+    <h3>This is third Heading</h3>
+    <p>This is first paragraph</p>
+    <p>This is second paragraph</p>
+    <p>This is third paragraph</p><br>
+    <br>
+
+    <ol type="i">
+        <li>cricket</li>
+        <li>football</li>
+        <li>kabbadi</li>
+        <li>hockey</li>
+        <ul type="circle">
+            <li>apple</li>        
+            <li>banana</li>        
+            <li>orange</li>        
+            <li>pineapple</li>        
+            <li>chiku</li>
+        </ul>
+    </ol>
+
+    <ul type="square">
+        <li>Ranjan</li>        
+        <li>vikram</li>        
+        <li>anand</li>        
+        <li>sandeep</li>        
+        <li>chiku</li>
+    </ul>
+
+    <a href="https://www.google.com" target="_blank" >Google.com</a> 
+    <br>   
+    <a href="https://www.Linkedin.com" target="_blank" >Linkedin.com</a>
+    <br>
+    <a href="wallpapersden.com_hack-4k-art_1280x1024.jpg" target="_blank">CLICK HERE FOR IMG</a>
+    <br>
+    <img src="https://www.jquery-az.com/html/images/banana.jpg" alt="banana picture" >
+    <br><br><br><br><br>
+    <div>
+        <img src="/Users/ranjankumar/Pictures/wp5575727.jpg" alt="ERROR IN LOADING PICTURE 2" >
+    </div>
+    <br><br><br><br><br>
+    <!-- TABLE DATA -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th> ID</th>
+                <th>SALARY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RANJAN</td>
+                <td>1560</td>
+                <td>600000</td>
+            </tr>
+            <tr>
+                <td>RAHUL</td>
+                <td>5643</td>
+                <td>400000</td>
+            </tr>
+            <tr>
+                <td>VIKASH</td>
+                <td>3454</td>
+                <td>200000</td>
+            </tr>
+            <tr>
+                <td>ANAND</td>
+                <td>2454</td>
+                <td>500000</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br><br>
+
+    <!-- FORMS START FROM HERE -->
+    <h2>FORM SECTION</h2>
+    <form action="backend.php">
+        <div>
+            Name:<input type="text" name="mynames">
+        </div>
+        <br>
+        <label for="abc">email</label>
+       
+            <input type="email" name="myemail" id="abc">
+        
+        <br>
+        <div>
+            Gender:MALE<input type="radio" name="MYgender" checked>
+            FEMALE<input type="radio" name="MYgender">
+        </div>
+        <br>
+        <div>
+            DOB: <input type="date" name="dates" id="">
+        </div>
+        <br>
+        <div>
+            Number: <input type="number" name="number" id="">
+           LINK:<input type="url" name="myurl" id="">
+          range<input type="range" name="my range" id="">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="SUBMIT NOW">
+            <input type="reset" value="RESET NOW">
+        </div>
+        
+    
+    </form>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt harum quis, quibusdam, minima molestiae tempore vel magni, repellendus doloribus debitis rerum tenetur eveniet.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt harum quis, quibusdam, minima molestiae tempore vel magni, repellendus doloribus debitis rerum tenetur eveniet.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt harum quis, quibusdam, minima molestiae tempore vel magni, repellendus doloribus debitis rerum tenetur eveniet.</p>
+    </div>
+
+
+
+
+</body>
+</html>
